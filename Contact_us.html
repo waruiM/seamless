@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Seamless Transitions
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body class="cont">
+        <nav id="top_nav">
+            <ul>
+                <div class="top_nav" id="myTopnav">
+                    <a href="Contact_us.html">Contact_us</a>
+                    <a href="main.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </ul>
+        </nav>
+        <!-- main section -->
+        <div class="log_ov">
+            <img src="images/logo4.PNG" alt="">
+        </div>
+        <!-- head -->
+        <div class="contq">
+            <div class="cont_form">
+                <!-- <h2>Contact_us</h2>
+                <h3>Talk to us today and let us make your funeral process as seamless as possible.</h3> -->
+                <div class="form">
+                    <!-- "" -->
+                    <form action="https://formspree.io/f/meqwqvwy" method="POST">
+                        <div class="input-container ic1">
+                            <input id="firstname" class="input" name="first-name" type="text" placeholder=" " required/>
+                            <div class="cut"></div>
+                            <label for="firstname" class="placeholder">First name</label>
+                        </div>
+                        <div class="input-container ic2">
+                            <input id="lastname" class="input" name="last-name" type="text" placeholder=" " required/>
+                            <div class="cut"></div>
+                            <label for="lastname" class="placeholder">Last name</label>
+                        </div>
+                        <div class="input-container ic2">
+                            <input id="number" class="input" name="phone" type="text" placeholder=" " required/>
+                            <div class="cut cut-short"></div>
+                            <label for="number" class="placeholder">Phone-number</label>
+                        </div>
+                        <div class="input-container ic2">
+                            <input id="email" class="input" name="email" type="text" placeholder=" " required/>
+                            <div class="cut"></div>
+                            <label for="email" class="placeholder">Email</label>
+                        </div>
+                        <div class="input-container ic3">
+                            <textarea id="message" class="input" name="message"placeholder=" " required></textarea>
+                            <div class="cut"></div>
+                            <label for="message" class="placeholder">Message</label>
+                        </div>
+                        <button type="text" class="submit">submit</button>
+                    </form>
+                </div>
+                <div class="cont-inf">
+                    <ul>
+                        <li>
+                            <i class="fa fa-map-location"></i>
+                            <p>Pension Plaza Muthangari Drive Ground floor</p> 
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>seamlesstransition@gmail.com</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+254736015238</p>
+                            <p>+254712345678</p>
+
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <p>254736015238</p>
+                        </li>
+                 
+                    </ul>
+    
+                </div>
+        
+            </div>
+
+
+        </div> 
+        <!-- js -->
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "top_nav") {
+            x.className += " responsive";
+            } else {
+            x.className = "top_nav";
+            }
+        }
+        </script>
+
+ <!-- bottom section -->
+ <div class="btm_sec">
+    <img src="images/logo4.PNG" alt="">
+    <div class="btm_sec_2">
+        <div class="btm_lct">
+            <h3>LOCATION</h3>
+            <ul class="btm_lct">
+                <li><i class="fa fa-phone"></i>+254712345678</li>
+                <li><i class="fa fa-map-marker"></i>Ushuru Pension Plaza <br>
+                        Muthangari Drive Ground floor</li>
+                <li><i class="fa fa-envelope"></i>seamlesstransition@gmail.com</li>
+            </ul>
+        </div>
+        <div class="btm_scm">
+            <h3>CONTACT_US</h3>
+            <p>Reach us on our verious social
+                <br>
+                media handles:
+            </p>
+            <ul class="btm_icons">
+                <li> <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i> Youtube</a> </li>
+                <li> <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> Instagram</a> </li>
+                <li> <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a> </li>
+
+            </ul>
+            
+        </div>
+        <div class="btm_oph">
+            <h3>OPENING HOURS</h3>
+            <ul class="btm_icons">
+                <li>8:00 AM to 4:30 PM, Monday to friday</li>
+                <li>10:00 AM to 1:30 PM, Saturday and Holidays</li>
+                <li>Sunday Closed</li>
+                
+
+            </ul>
+            
+        </div>
+
+    </div>
+
+
+</div>
+    </body>
+</html>
